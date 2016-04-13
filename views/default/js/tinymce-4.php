@@ -69,6 +69,7 @@ elgg.tinymce.init = function() {
         toolbar1 : "<?php echo $menu1;?>",
         toolbar2 : "<?php echo $menu2;?>",
         toolbar3 : "<?php echo $menu3;?>",
+        browser_spellcheck : true,
         media_strict: false,
         image_advtab: true,
         language : "<?php echo get_language(); ?>",
