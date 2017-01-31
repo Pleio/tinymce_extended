@@ -4,17 +4,10 @@
 	require_once(dirname(__FILE__) . "/lib/hooks.php");
 	
 	function tinymce_extended_init() {
-		elgg_register_plugin_hook_handler("config", "htmlawed", "tinymce_extended_htmlawed_config");
 		elgg_register_plugin_hook_handler("setting", "plugin", "tinymce_extended_plugin_setting");
-		
 		elgg_register_page_handler("tinymce_data", "tinymce_extended_data_handler");
-
-      $version = elgg_get_plugin_setting("version", "tinymce_extended");
-
-      if ($version == 4) {
-         // override distribution with custom version
-         elgg_register_js('tinymce', 'mod/tinymce_extended/vendors/tinymce/js/tinymce-4.2.1/tinymce.min.js');
-      }
+	
+        elgg_register_js('tinymce', 'mod/tinymce_extended/vendors/tinymce/js/tinymce-4.2.1/tinymce.min.js');
 	}
 	
 	function tinymce_extended_data_handler(){

@@ -8,10 +8,8 @@ $english = array(
 	'tinymce_extended:settings:menu1' => "First menu buttons",
 	'tinymce_extended:settings:menu2' => "Second menu buttons",
 	'tinymce_extended:settings:menu3' => "Third menu buttons",
-	'tinymce_extended:settings:valid_elements' => "Configure valid elements",
 	'tinymce_extended:settings:more_info' => "More info about default configurable buttons and plugins can be found here <a href='http://www.tinymce.com/wiki.php/Configuration' target='_blank'>http://www.tinymce.com/wiki.php/Configuration</a>",
 	'tinymce_extended:settings:version' => "Version",
-	'tinymce_extended:settings:htmlawed:schemes' => "Extend the htmlawed schemes with the following",
 	
 	// Defaults (no need to change when making new language file)
 	'tinymce_extended:defaults:plugins' => "lists,spellchecker,autosave,fullscreen,paste",

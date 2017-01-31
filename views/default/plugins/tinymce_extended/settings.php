@@ -9,15 +9,8 @@ if(empty($plugin->plugins)){
 if(empty($plugin->menu1)){
 	$plugin->menu1 = elgg_echo("tinymce_extended:defaults:menu1");
 }
-if(empty($plugin->valid_elements)){
-	$plugin->valid_elements = elgg_echo("tinymce_extended:defaults:valid_elements");
-}
 
 echo elgg_view_module("info", "", elgg_echo("tinymce_extended:settings"));
-
-echo elgg_view_module("info", elgg_echo("tinymce_extended:settings:version"),elgg_view("input/dropdown", array("name" => "params[version]", "value" => $plugin->version, "options" => array(3,4))));
-
-echo elgg_view_module("info", elgg_echo("tinymce_extended:settings:htmlawed:schemes"),elgg_view("input/text", array("name" => "params[htmlawed_schemes]", "value" => $plugin->htmlawed_schemes)));
 
 echo elgg_view_module("info", elgg_echo("tinymce_extended:settings:plugins"),elgg_view("input/text", array("name" => "params[plugins]", "value" => $plugin->plugins)));
 
@@ -26,7 +19,5 @@ echo elgg_view_module("info", elgg_echo("tinymce_extended:settings:menu1"),elgg_
 echo elgg_view_module("info", elgg_echo("tinymce_extended:settings:menu2"),elgg_view("input/text", array("name" => "params[menu2]", "value" => $plugin->menu2)));
 
 echo elgg_view_module("info", elgg_echo("tinymce_extended:settings:menu3"),elgg_view("input/text", array("name" => "params[menu3]", "value" => $plugin->menu3)));
-
-echo elgg_view_module("info", elgg_echo("tinymce_extended:settings:valid_elements"),elgg_view("input/text", array("name" => "params[valid_elements]", "value" => $plugin->valid_elements)));
 
 echo elgg_view_module("info", "", elgg_echo("tinymce_extended:settings:more_info"));
