@@ -1,5 +1,5 @@
 {
-    "name": "coldtrick/tinymce_extended",
+    "name": "pleio/tinymce_extended",
     "type": "elgg-plugin",
     "require": {
         "composer/installers": "~1.0"
