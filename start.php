@@ -33,4 +33,4 @@
 	}
 
 	// Make sure the status initialisation function is called on initialisation
-	elgg_register_event_handler("init", "system", "tinymce_extended_init", 9999);
+	elgg_register_event_handler("init", "system", "tinymce_extended_init");
