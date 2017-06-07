@@ -63,6 +63,7 @@ elgg.tinymce.init = function() {
         skin : "lightgray",
         plugins : "lists,<?php echo $plugins;?>,noneditable,wordcount",
         relative_urls : false,
+        branding: false,
         remove_script_host : false,
         document_base_url : elgg.config.wwwroot,
         menu: {},
