@@ -14,7 +14,6 @@ $english = array(
 	// Defaults (no need to change when making new language file)
 	'tinymce_extended:defaults:plugins' => "lists,spellchecker,autosave,fullscreen,paste",
 	'tinymce_extended:defaults:menu1' => "bold,italic,underline,separator,strikethrough,bullist,numlist,undo,redo,link,unlink,image,blockquote,code,pastetext,pasteword,more,fullscreen",
-	'tinymce_extended:defaults:valid_elements' => "a[name|href|target|title|onclick],img[class|src|border=0|alt|title|hspace|vspace|width|height|align|onmouseover|onmouseout|name|style],hr[class|width|size|noshade],font[face|size|color|style],span[class|align|style]",
 	
 );
 				
