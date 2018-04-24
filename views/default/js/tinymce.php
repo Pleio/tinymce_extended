@@ -13,7 +13,7 @@ if(empty($menu1)){
 $menu2 = elgg_get_plugin_setting("menu2", "tinymce_extended");
 $menu3 = elgg_get_plugin_setting("menu3", "tinymce_extended");
 
-$valid_elements = "a[name|href|target|title],img[class|src|border=0|alt|title|hspace|vspace|width|height|align|name|style],hr[class|width|size|noshade],font[face|size|color|style],span[class|align|style]";
+$valid_elements = "a[id|name|href|target|title],img[class|src|border=0|alt|title|hspace|vspace|width|height|align|name|style],hr[class|width|size|noshade],font[face|size|color|style],span[class|align|style]";
 
 ?>
 //<script>
