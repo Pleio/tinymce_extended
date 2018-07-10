@@ -2,7 +2,7 @@ tinymce.addI18n('nl',{
 "Cut": "Knippen",
 "Heading 5": "Kop 5",
 "Header 2": "Kop 2",
-"Your browser doesn't support direct access to the clipboard. Please use the Ctrl+X\/C\/V keyboard shortcuts instead.": "Uw browser ondersteunt geen toegang tot het clipboard. Gelieve ctrl+X\/C\/V sneltoetsen te gebruiken.",
+"Your browser doesn't support direct access to the clipboard. Please use the Ctrl+X\/C\/V keyboard shortcuts instead.": "Voor het plakken van gekopieerde tekst: gebruik Ctrl+V.",
 "Heading 4": "Kop 4",
 "Div": "Div",
 "Heading 2": "Kop 2",
