@@ -1,0 +1,2 @@
+
+.mce-panel { clear: both; }
